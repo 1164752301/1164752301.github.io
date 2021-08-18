@@ -12,20 +12,30 @@ phone call tasks now will be handled by this application.
 
 ## What it does
 
-This community allows users to ask questions and answer questions from others. Every question
-can have a lot of answers. People can view these questions, answers and the related information.
-People can like or dislike any answers, but they can't do it repeatedly.
+This community allows users to ask questions and answer questions from others. Users should login
+first before they operate any action other than registering. Users can also change password 
+and logout. Every question can have a lot of answers. People can view these questions, answers 
+and the related information. People can like or dislike any answers, but they can't do it repeatedly.
 People can view all questions, view questions by category, view their own questions, answers and
 likes. People can also search for the knowledge including some specific words.
 Users can insert images or designate their own fonts in this app. knowledge can be
 batch imported into this application.
 We also included a robot which allows users to ask questions and if the question is
-in our knowledge base, then the user will be answered. otherwise, he will be answered
+in our knowledge base, then the user will be answered. otherwise, the user will be answered
 with a fixed sentence.
 
 ## How we built it
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*We used vue as the frontend framework, springboot as the backend framework,
+mybatis as our persistence framework and Oracle as our database. At first we
+used a plugin called mybatis generator which helps us generate mybatis mappers,
+but as we extend functions of the app, we found that this plugin can't handle
+complicated SQLs like union search. so we started to write our own mapper.
+*We introduced a plugin called PageHelper to help us realize the paging function.
+*We introduced a rich text editor called tinymce so that users can upload images
+and designate their own fonts. The images should be accepted in form of Multipart file.
+*We 
+
 
 ## Challenge we ran into
 
