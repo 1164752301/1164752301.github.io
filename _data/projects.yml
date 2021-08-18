@@ -1,4 +1,14 @@
-- title: Task Tracker
-  event: MLH Fellowship Pre Fellowship Project
-  date: Summer 2021  - Batch 3.5
-  page-name: project
+- title: SGCC Knowledge Community
+  event: A component of SGCC smart customer service system.
+  date: 2021.4 - 2021.6
+  page-name: SGCC
+
+- title: ZSETC Knowledge Base
+  event: A visualized database management system made for ZSETC company.
+  date: 2021.6 - 2021.8
+  page-name: ETC
+
+- title: a Smart Manufacturing system
+  event: low-code graphical MES and WMS made for medium-sized factory
+  date: 2021.7 - on progress
+  page-name: Low-Code
