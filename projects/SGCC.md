@@ -63,7 +63,7 @@ progress automatic.
      method actually requires a transaction management, which makes the read and
      reset operations an atom.
   ---
-  We chose the first method to deploy but we updated the second method to a newer
+  We chose the first method to deploy but we used the second method in a newer
      version.   
 * We got three knowledgeIds and we wanted to search for them consecutively. However,
 in order to avoid the unintended click of users, we prevented any operation which
